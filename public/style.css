@@ -87,13 +87,13 @@ h1 {
   }
 
   .container {
-    padding: 1rem;
+    padding: 0rem;
     border-radius: 0;
     box-shadow: none;
   }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
 
   p {
