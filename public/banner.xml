@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <style>
+      /* This imports the fonts directly from Google */
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&amp;family=Montserrat:wght@400&amp;display=swap');
+
+      .bg { 
+        fill: #0B192C; /* Deep navy blue background */
+      } 
+      .title {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 72px;
+        fill: #00E5FF; /* Glowing cyan text */
+        text-anchor: middle;
+      }
+      .subtitle {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        fill: #E0E0E0; /* Light grey text */
+        text-anchor: middle;
+        letter-spacing: 6px;
+      }
+      /* Subtle background rings for a quantum aesthetic */
+      .atom-ring { 
+        stroke: #00E5FF; 
+        stroke-width: 1.5; 
+        opacity: 0.15; 
+        fill: none;
+      }
+      .dashed-ring {
+        stroke: #00E5FF; 
+        stroke-width: 2; 
+        opacity: 0.2; 
+        fill: none;
+        stroke-dasharray: 12 12;
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" class="bg" />
+
+  <circle cx="600" cy="150" r="250" class="atom-ring" />
+  <circle cx="600" cy="150" r="180" class="dashed-ring" />
+  <line x1="0" y1="150" x2="1200" y2="150" class="atom-ring" />
+
+  <text x="600" y="155" class="title">THE QUANTUM REALM</text>
+  <text x="600" y="210" class="subtitle">READING CIRCLE &amp; DISCUSSION</text>
+</svg>
