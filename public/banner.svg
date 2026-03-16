@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <style>
+      /* This imports the fonts directly from Google */
+      @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&amp;display=swap');
+
+      .bg { 
+        fill: #000640; /* Deep navy blue background */
+      } 
+      .title {
+        font-family: 'Bitcount Grid Single';
+        font-size: 72px;
+        fill: #ffffff; /* Glowing cyan text */
+        text-anchor: middle;
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" class="bg" />
+
+  <text x="600" y="155" class="title">Welcome</text>
+</svg>
